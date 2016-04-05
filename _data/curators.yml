@@ -1,0 +1,18 @@
+DHS:
+  url: "https://www.dhs.gov"
+HUD:
+  url: "http://www.hud.gov"
+Census:
+  url: "https://www.census.gov/"
+"DOT/HUD":
+  url: "http://www.locationaffordability.info"
+ED:
+  url: "https://www.ed.gov"
+OMB:
+  url: "https://www.whitehouse.gov/omb"
+HHS:
+  url: "https://www.hhs.gov"
+USDA:
+  url: "http://www.usda.gov"
+EPA:
+  url: "http://www.epa.gov"

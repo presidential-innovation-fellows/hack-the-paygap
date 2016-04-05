@@ -1,0 +1,371 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+// These are the U.S. Design Standards variables (color definitions, etc.)
+@import "core/variables";
+
+@media screen and (max-width: 600px) { .ood-mobile-hide { display: none; } }
+@media screen and (max-width: 1200px) { .ood-narrow-hide { display: none; } }
+@media screen and (min-width: 1201px) { .ood-wide-hide { display: none; } }
+
+h1, h2, h3, h4, h5, h6 {
+  color: $color-primary-darker;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  color: $color-secondary;
+}
+
+i.fa-github {
+  margin-left: 0.15em;
+}
+
+main > article,
+main > section,
+main > div.section,
+.ood-banner {
+  overflow: auto; /* defeat margin collapse */
+}
+
+.usa-disclaimer,
+.ood-banner > *,
+main > section > * ,
+main > div.section > * ,
+body > footer {
+  padding-left: $site-margins;
+  padding-right: $site-margins;
+}
+
+body {
+  color: $color-base;
+}
+
+header.ood-main {
+  text-align: center;
+
+  p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+main > section,
+main > div.section {
+  padding-bottom: $grid-margins;
+}
+
+main > .ood-alt {
+  background-color: $color-gray-cool-light;
+}
+
+main > .ood-alt2 {
+  background-color: $color-gray-lightest;
+}
+
+.ood-youtube {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 51%;
+
+  iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
+}
+
+.ood-join {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ood-fact-sheet {
+  padding: 1em;
+  background-color: #FFF;
+}
+
+.ood-banner {
+  background-color: $color-primary-darkest;
+  background-repeat: no-repeat;
+  background-image: url(../img/hero.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  padding: 3em 0;
+  text-align: center;
+
+  h1 {
+    font-weight: 300;
+    font-size: 52px;
+    line-height: 1.3em/68px;
+  }
+
+  .usa-font-lead {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.3em/39px;
+  }
+
+  .ood-description {
+    margin-left: auto;
+    margin-right: auto;
+
+    // slightly wider than the 57rem of ".usa-content p" to achieve nice
+    // looking line distribution
+    max-width: 60rem;
+  }
+
+  a {
+    color: $color-gray-lighter;
+
+    &:hover {
+      color: $color-white;
+    }
+  }
+
+  & p,
+  & h1 {
+    color: $color-white !important;
+  }
+
+  & > :last-child {
+    margin-bottom: $grid-margins;
+  }
+}
+
+.ood-nav {
+  padding: 0;
+  text-align: center;
+
+  & > div {
+    padding: 1.5em 0;
+  }
+
+  h2 {
+    color: $color-base;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.3em/44px;
+  }
+
+  a {
+    text-decoration: none;
+
+    p {
+      color: $color-gray;
+    }
+  }
+
+  i.fa {
+    position: relative;
+    display: inline-block;
+    width: 9em;
+    padding: 1.75em 0 0.75em 0;
+    margin-bottom: 1.5em;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: $color-secondary-dark;
+
+    &.ood-first {
+      background-color: $color-primary-darkest;
+
+      &:after {
+        border-top-color: $color-primary-darkest;
+      }
+    }
+
+    &.ood-last {
+      background-color: $color-gray-medium;
+
+      &:after {
+        border-top-color: $color-gray-medium;
+      }
+    }
+
+    &:before {
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-transform: none !important;
+      font-size: 4.5em;
+      line-height: 1em;
+      color: $color-white;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: -2.00em;
+      left: 0;
+      border-top: solid 2em $color-secondary-dark;
+      border-left: solid 4.5em transparent;
+      border-right: solid 4.5em transparent;
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    .ood-middle {
+      position: relative;
+
+      &:before,
+      &:after {
+        content: '';
+        width: 32px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        display: block;
+        z-index: -1;
+      }
+
+      &:before {
+        left: -24px;
+        box-shadow: 32px 0 0 0 #fff, 0 -32px 0 0 #fff, 0 32px 0 0 #fff, 32px 32px 0 0 #fff, 32px -32px 0 0 #fff, 0 0 32px 0 rgba(0, 0, 0, 0.15);
+      }
+
+      &:after {
+        right: -24px;
+        box-shadow: -32px 0 0 0 #fff, 0 -32px 0 0 #fff, 0 32px 0 0 #fff, -32px 32px 0 0 #fff, -32px -32px 0 0 #fff, 0 0 32px 0 rgba(0, 0, 0, 0.15);
+      }
+    }
+  }
+}
+
+.ood-nav-spacer {
+  height: 3.5em;
+  padding: 0;
+  margin: 0;
+}
+
+.usa-font-lead {
+  color: $color-gray-dark;
+}
+
+.usa-grid-full {
+  max-width: none;
+}
+
+.ood-repo {
+  margin: 0;
+  font-size: smaller;
+
+  @media screen and (max-width: 480px) {
+    margin-top: 1em;
+  }
+
+  @media screen and (min-width: 480px) {
+    float: right;
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 600px) {
+    // ugly hack, but no simple IU that looks good in this width band
+    display: none;
+  }
+}
+
+.ood-gallery-item {
+  background-color: $color-white;
+  border-bottom: 1px solid $color-gray-light;
+  margin-bottom: $grid-margins;
+}
+
+.ood-gallery-item-image-container {
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+  }
+}
+
+.ood-gallery-item-content {
+  color: $color-gray;
+}
+
+.ood-gallery-item-commitment {
+  padding: $grid-margins;
+
+  .ood-gallery-item-image-container {
+    background-color: $color-white;
+    background-size: contain;
+
+    &:before {
+      padding-top: 346px / 957px * 100%; /* images should be 957 x 346 px */
+    }
+  }
+}
+
+.ood-gallery-item-data-consumer {
+  .ood-gallery-item-content {
+    padding: 0 $grid-margins $grid-margins;
+  }
+
+  .ood-gallery-item-image-container {
+    background-color: $color-gray-lightest;
+    background-size: cover;
+    border-bottom: 1px solid $color-gray-lighter;
+
+    &:before {
+      padding-top: 442px / 623px * 100%; /* images should be 623 x 442 px */
+    }
+  }
+}
+
+.ood-quotation {
+  color: $color-primary-alt-darkest;
+  margin: $grid-margins*1.5 auto 0;
+  padding: 0 $site-margins;
+}
+
+.ood-bg-icon {
+  font-size: 15vw;
+  color: $color-gray-lightest;
+  text-align: center;
+  padding-top: .1em;
+}
+
+.usa-background-dark {
+  h1, h2, h3, h4, h5, h6 {
+    color: $color-white;
+  }
+}
+
+body > footer {
+  .usa-footer-secondary_section {
+    background-color: $color-gray-dark;
+    color: $color-white;
+    padding-bottom: 0;
+
+    a {
+      color: $color-gray-lighter;
+    }
+  }
+
+  address > :last-child {
+    margin-bottom: $site-margins;
+  }
+
+  .usa-footer-logo-img {
+    max-height: 10rem;
+    max-width: 10rem;
+    vertical-align: middle;
+    margin-right: $grid-margins;
+    margin-bottom: $grid-margins;
+  }
+}

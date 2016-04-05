@@ -1,0 +1,70 @@
+name: "New Orleans"
+url: "https://data.nola.gov"
+datasets:
+  - topic: "Preschool/daycare"
+    description: "Building preschool/daycare"
+    url: ""
+
+  - topic: "Parcels and addresses"
+    description: "Calls for service"
+    url: "https://data.nola.gov/Public-Safety-and-Preparedness/Calls-for-Service-2015/w68y-xmk6"
+
+  - topic: "Permits"
+    description: "Building permits"
+    url: "https://data.nola.gov/Housing-Land-Use-and-Blight/NOLA-Permits/rcm3-fn58"
+
+  - topic: "Code enforcement"
+    description: "Hearings"
+    url: "https://data.nola.gov/dataset/Code-Enforcement-Hearings-Calendar/g7yr-kp9j"
+
+  - topic: "Code enforcement"
+    description: "Inspections"
+    url: "https://data.nola.gov/Housing-Land-Use-and-Blight/Code-Enforcement-Inspections/2mq3-p3xc"
+
+  - topic: "Publicly owned land"
+    description: "Land use of nolas blight/nola-land"
+    url: "https://data.nola.gov/Housing-Land-Use-and-Blight/NOLA-Land-Use/n37q-brt2"
+
+  - topic: "Crime"
+    description: "Crimes"
+    url: "https://data.nola.gov/Public-Safety-and-Preparedness/Murders-Violent-Crime-Rate-and-Property-Crime-Rate/kirw-4rbx"
+
+  - topic: "Homelessness"
+    description: "Point in Time count"
+    url: "https://data.nola.gov/Health-Education-and-Social-Services/Homeless-Point-In-Time-Count-2005-Present-/f29j-qgmr"
+
+  - topic: "311"
+    description: "Rate of 311 call resolution"
+    url: "https://data.nola.gov/City-Administration/Rate-of-311-first-call-resolution-2209-/2t9v-ghrk"
+
+  - topic: "Transit"
+    description: "Travel time to work"
+    url: "https://data.nola.gov/Transportation-and-Infrastructure/Travel-time-to-work-2007-Present-/qwed-53qf"
+
+  - topic: "Schools"
+    description: "Location of K-12 schools"
+    url: "https://data.nola.gov/Health-Education-and-Social-Services/Schools-K-12/yanw-8k4k"
+
+  - topic: "Schools"
+    description: "Letter grade of schools 2009-present"
+    url: "https://data.nola.gov/Health-Education-and-Social-Services/School-Letter-Grades-2009-Present-/uqaz-4txm"
+
+  - topic: "Schools"
+    description: "HS graduation rates"
+    url: "https://data.nola.gov/Health-Education-and-Social-Services/High-School-Graduation-Rates-2008-Present-/rut5-g5bw"
+
+  - topic: "Privately owned assets"
+    description: "Restaurants"
+    url: "https://data.nola.gov/Health-Education-and-Social-Services/NOLA-Restaurants/utqx-f83p"
+
+  - topic: "Privately owned assets"
+    description: "Grocery stores"
+    url: "https://data.nola.gov/Health-Education-and-Social-Services/NOLA-Grocery-Stores-Map/sgvu-dj2a"
+
+  - topic: "Zoning"
+    description: "Zoning districts"
+    url: "https://data.nola.gov/Housing-Land-Use-and-Blight/NOLA-Zoning-Districts/dnvw-73jv"
+
+  - topic: "Special Events"
+    description: "Mardi Gras Parade Routes - Daily Routes (2016)"
+    url: "http://portal.nolagis.opendata.arcgis.com/datasets/aa8931b8b6d4437c9a611f219185c23e_0"

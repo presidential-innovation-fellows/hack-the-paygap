@@ -1,0 +1,78 @@
+name: "Detroit"
+url: "https://data.detroitmi.gov"
+datasets:
+  - topic: "Parcels and addresses"
+    description: "Property and parcels"
+    url: "https://data.detroitmi.gov/browse?category=Property+%26+Parcels"
+
+  - topic: "Permits"
+    description: "Permits"
+    url: "https://data.detroitmi.gov/browse?q=permit"
+
+  - topic: "Code enforcement"
+    description: "Blight violation locations"
+    url: "https://data.detroitmi.gov/Property-Parcels/Blight-Violations/teu6-anhh"
+
+  - topic: "Publicly owned land"
+    description: "Parks"
+    url: "https://data.detroitmi.gov/Fun/Parks/6wcj-hkzq"
+
+  - topic: "Publicly owned land"
+    description: "Vacant lot sales"
+    url: "https://data.detroitmi.gov/Government/DLBA-Side-Lot-Sales/ur7y-psks"
+
+  - topic: "Publicly owned land"
+    description: "Public libraries"
+    url: "http://portal.datadrivendetroit.org/datasets/46321d4eac7c436d858ba64870c91075_0"
+
+  - topic: "Crime"
+    description: "Public safety data sets"
+    url: "https://data.detroitmi.gov/browse?category=Public+Safety"
+
+  - topic: "311"
+    description: "Submitted issues"
+    url: "https://data.detroitmi.gov/Government/Improve-Detroit-Submitted-Issues/6ynw-2fqn"
+
+  - topic: "Transit"
+    description: "Bike lanes"
+    url: "http://portal.datadrivendetroit.org/datasets/4b886654a8d846a782658bd4712e7952_0"
+
+  - topic: "Transit"
+    description: "Bus routes"
+    url: "http://portal.datadrivendetroit.org/datasets/259d33193b7044a48fbab295f20e404d_1"
+
+  - topic: "Transit"
+    description: "Smart bus routes"
+    url: "http://portal.datadrivendetroit.org/datasets/399eabaac9c74790a682ab48c89aa129_0"
+
+  - topic: "Preschool/daycare"
+    description: "Childcare locations (licensed or registered providers)"
+    url: "http://portal.datadrivendetroit.org/datasets/6e3dec15edc84212869d3d8802ac0a7c_0"
+
+  - topic: "Schools"
+    description: "School locations"
+    url: "https://data.detroitmi.gov/Education/Schools/vidg-c4v6"
+
+  - topic: "Schools"
+    description: "Schools with average commute"
+    url: "http://portal.datadrivendetroit.org/datasets/5d36a64150284a299c4808436de07a5d_0"
+
+  - topic: "Privately owned assets"
+    description: "Hospitals"
+    url: "http://portal.datadrivendetroit.org/datasets/ea2551cfc5bf4e2ea7d065fb783f2129_0"
+
+  - topic: "Privately owned assets"
+    description: "Full-line grocery stores"
+    url: "http://portal.datadrivendetroit.org/datasets/194bc647287f4e6b91c6401443845cce_0"
+
+  - topic: "Privately owned assets"
+    description: "Churches"
+    url: "http://portal.datadrivendetroit.org/datasets/f6c93d04857c4bd4b0783867def3ccf5_0"
+
+  - topic: "Privately owned assets"
+    description: "Recreation centers"
+    url: "http://portal.datadrivendetroit.org/datasets/8ee240e505cb493eaa63cf0c5c390d34_0"
+
+  - topic: "Zoning"
+    description: "Detroit zoning"
+    url: "http://portal.datadrivendetroit.org/datasets/bbe90203edcd4c51af2f6c697ab5216c_0"

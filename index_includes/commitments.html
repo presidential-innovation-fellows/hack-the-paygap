@@ -1,0 +1,11 @@
+<div class="usa-grid">
+  {% for c in site.data.commitments %}
+    {% assign id = c[0] %}
+    {% include_relative index_includes/commitment.html id=id %}
+    {% unless forloop.last %}
+      <!-- ugly hack: the number of entries in this cycle must match
+           the number of columns in this grid row -->
+      {% cycle '', '', '', '', '', '</div><div class="usa-grid">' %}
+    {% endunless %}
+  {% endfor %}
+</div>

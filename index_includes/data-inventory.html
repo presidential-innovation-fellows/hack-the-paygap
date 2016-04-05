@@ -1,0 +1,23 @@
+<div class="usa-grid">
+  <h3>Data Inventory</h3>
+  <p>Use curated data related to opportunity from across federal and local governments.</p>
+  <p><a href="{{ "inventory.csv" | prepend: site.baseurl }}">Download this inventory</a> as a flattened CSV file.</p>
+</div>
+
+<div class="usa-grid">
+  {% include_relative index_includes/data-inventory-provider.html id='federal' group_key='curator' %}
+
+  {% capture sort_strings %}
+    {% for p in site.data.data-providers %}
+      {{ p[1].name | slugify }}__{{ p[0] }}
+    {% endfor %}
+  {% endcapture %}
+  {% assign sort_strings = sort_strings | split:' ' | sort %}
+  {% for sort_string in sort_strings %}
+    {% assign sort_string_pair = sort_string | split:'__' %}
+    {% assign id = sort_string_pair[1] %}
+    {% if id != 'federal' %}
+      {% include_relative index_includes/data-inventory-provider.html id=id group_key='topic' %}
+   {% endif %}
+  {% endfor %}
+</div>

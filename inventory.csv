@@ -1,0 +1,17 @@
+---
+---
+{% capture csv %}
+{% assign replace = "$$" %}
+{% capture newline %}
+{% endcapture %}
+provider_name,provider_url,category,description,url{{ replace }}
+{% for pid in site.data.data-providers %}
+{% assign provider = pid[1] %}
+{% for dataset in provider.datasets %}
+{% if dataset.topic %} {% capture category %}{{ dataset.topic }}{% endcapture %}
+{% elsif dataset.curator %} {% capture category %}{{ dataset.curator }}{% endcapture %}
+{% endif %}
+"{{ provider.name }}",{{ provider.url }},"{{ category }}","{{ dataset.description }}",{{ dataset.url }}{{ replace }}
+{% endfor %}
+{% endfor %}
+{% endcapture %}{{ csv | strip_newlines | replace: replace, newline }}

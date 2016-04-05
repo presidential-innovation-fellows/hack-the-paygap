@@ -1,0 +1,102 @@
+name: "New York"
+url: "https://nycopendata.socrata.com/"
+datasets:
+  - topic: "Parcels and addresses"
+    description: "Property address directory"
+    url: "https://data.cityofnewyork.us/City-Government/Property-Address-Directory/bc8t-ecyu"
+
+  - topic: "Permits"
+    description: "Construction pipeline - list of upcoming construction opportunities"
+    url: "https://data.cityofnewyork.us/City-Government/Construction-Pipeline/64vf-hxyb"
+
+  - topic: "Permits"
+    description: "Projected new housing starts"
+    url: "https://data.cityofnewyork.us/Housing-Development/Projected-New-Housing-Starts-as-Used-in-Enrollment/pa5t-ktd3"
+    
+  - topic: "Code Enforcement"
+    description: "Housing maintenance code violations"
+    url: "https://data.cityofnewyork.us/Housing-Development/Housing-Maintenance-Code-Violations/wvxf-dwi5"
+
+  - topic: "Publicly owned land"
+    description: "Parks"
+    url: "https://data.cityofnewyork.us/City-Government/Parks-Properties/rjaj-zgq7"
+    
+  - topic: "Publicly owned land"
+    description: "Open Spaces"
+    url: "https://data.cityofnewyork.us/Recreation/New-York-City-Open-Spaces-Parks/g84h-jbjm"
+
+  - topic: "Crime"
+    description: "Historical Crime Data"
+    url: "https://data.cityofnewyork.us/Public-Safety/Historical-New-York-City-Crime-Data/hqhv-9zeg"
+
+  - topic: "Crime"
+    description: "7 Major felony incident map"
+    url: "https://data.cityofnewyork.us/Public-Safety/NYPD-7-Major-Felony-Incident-Map/dvh8-u7es+C26"
+
+  - topic: "Homelessness"
+    description: "Homeless population by year (09-12)"
+    url: "https://data.cityofnewyork.us/Social-Services/Directory-Of-Homeless-Population-By-Year/5t4n-d72c"
+
+  - topic: "311"
+    description: "Service requests (2010 to present)"
+    url: "https://nycopendata.socrata.com/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9"
+
+  - topic: "Transit"
+    description: "Subway stations"
+    url: "https://data.cityofnewyork.us/Transportation/Subway-Stations/arq3-7z49"
+
+  - topic: "Transit"
+    description: "MTA Data - pertaining to subways, buses, commuter rail, bridges, and tunnels"
+    url: "https://data.cityofnewyork.us/Transportation/MTA-Data/mmu8-8w8b"
+
+  - topic: "Preschool/Daycare"
+    description: "Day Care centers"
+    url: "https://data.cityofnewyork.us/City-Government/Day-Care-Center/3nxf-gbay"
+
+  - topic: "Schools"
+    description: "After school program locations"
+    url: "https://data.cityofnewyork.us/Social-Services/After-School-Programs/6ej9-7qyi"
+    
+  - topic: "Schools"
+    description: "School point locations"
+    url: "https://data.cityofnewyork.us/Education/School-Point-Locations/jfju-ynrr"
+    
+  - topic: "Schools"
+    description: "School survey"
+    url: "https://data.cityofnewyork.us/Education/NYC-School-Survey/kwk4-6u9e"
+
+  - topic: "Privately owned assets"
+    description: "Selected Facilities and Program sites including schools, parks, libraries, day care, etc"
+    url: "https://data.cityofnewyork.us/Housing-Development/Selected-Facilities-and-Program-Sites-Shapefile/2fpa-bnsx"
+
+  - topic: "Zoning"
+    description: "Primary Residential zoning by lot"
+    url: "https://data.cityofnewyork.us/Housing-Development/Primary-Residential-Zoning-by-lot/ieyi-rqsn"
+
+  - topic: "Zoning"
+    description: "Primary Commercial zoning by lot"
+    url: "https://data.cityofnewyork.us/Business/Primary-Commercial-Zoning-by-lot/pwhj-ikym"
+    
+  - topic: "Zoning"
+    description: "SafeRoutes to school priority zones"
+    url: "https://data.cityofnewyork.us/Transportation/Safe-Route-to-Schools-Priority-Schools/pc34-d3sx"
+    
+  - topic: "Zoning"
+    description: "Hurricane inundation zones (worst case) "
+    url: "https://data.cityofnewyork.us/Public-Safety/Hurricane-Inundation-Zones-Worst-Case/h3ke-x25q"
+    
+  - topic: "Zoning"
+    description: "Zoning district data"
+    url: "https://data.cityofnewyork.us/City-Government/Zoning-GIS-Data-ESRI-Shape-file/kdig-pewd"
+
+  - topic: "Health and environment"
+    description: "Restaurant inspection results"
+    url: "https://nycopendata.socrata.com/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/xx67-kt59"
+
+  - topic: "Health and environment"
+    description: "Child welfare indicators (per NYC council)"
+    url: "https://data.cityofnewyork.us/Social-Services/Child-Welfare-Indicators-Annual-and-quarterly-repo/3m2q-9maw"
+    
+  - topic: "Jobs"
+    description: "Job listings with location"
+    url: "https://data.cityofnewyork.us/City-Government/NYC-Jobs/kpav-sd4t"

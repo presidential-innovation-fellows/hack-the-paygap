@@ -1,0 +1,23 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: The Opportunity Project
+email: ross.dakin@pif.gov
+description: > # this means to ignore newlines until "baseurl:"
+  An open data effort to improve economic mobility for all Americans.
+baseurl: "" # the subpath of your site, e.g. /blog
+email: opportunity-data@listserv.gsa.gov
+url: http://opportunity.census.gov # the base hostname & protocol for your site
+repo_url: https://github.com/uscensusbureau/opportunity
+
+# Build settings
+markdown: kramdown
+
+# Play nice with US Design Standards without needing to modify them (drop-in).
+sass:
+  sass_dir: designstandards/assets/_scss

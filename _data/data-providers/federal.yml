@@ -1,0 +1,102 @@
+name: "Federal"
+url: "https://data.gov"
+datasets:
+  - curator: "DHS"
+    description: "Homeland Infrastructure Foundation-Level Data (HIFLD)"
+    url: "https://hifld-dhs-gii.opendata.arcgis.com/"
+
+  - curator: "HUD"
+    description: "School Proficiency Index"
+    url: "http://egis.hud.opendata.arcgis.com/datasets/70e2ed8dcb6c47ffa3414c275f62b72b_0"
+
+  - curator: "HUD"
+    description: "Low Poverty Index"
+    url: "http://egis.hud.opendata.arcgis.com/datasets/a4d78dc882bb456da6200b574bfb9e12_0"
+
+  - curator: "HUD"
+    description: "Jobs Proximity Index"
+    url: "http://egis.hud.opendata.arcgis.com/datasets/636ecbfb0ee5480ea5b68e65991e4815_0"
+
+  - curator: "HUD"
+    description: "Labor Market Index"
+    url: "http://egis.hud.opendata.arcgis.com/datasets/4cb7f61e90b84fe5a208d8ea587d11f3_0"
+
+  - curator: "HUD"
+    description: "Low Transportation Cost Index"
+    url: "http://egis.hud.opendata.arcgis.com/datasets/154f5e23fd7248a99b97fa92adc81b6c_0"
+
+  - curator: "HUD"
+    description: "Environmental Health Hazard Index"
+    url: "http://egis.hud.opendata.arcgis.com/datasets/53a856bef6f24356abee30653399e94a_0"
+
+  - curator: "HUD"
+    description: "Racially/ethnically concentrated areas of poverty (RECAP)"
+    url: "http://egis.hud.opendata.arcgis.com/datasets/320b8ab5d0304daaa7f1b8c03ff01256_0"
+
+  - curator: "HUD"
+    description: " Promise Zones"
+    url: "http://egis.hud.opendata.arcgis.com/datasets/a10cbd9187a34bd2a28574a3cfe12e64_0"
+
+  - curator: "HUD"
+    description: "Choice Neighborhoods Grantees"
+    url: "http://egis.hud.opendata.arcgis.com/datasets/ec2691b3adba44b1a85596410d04933b_0"
+
+  - curator: "HUD"
+    description: "Strong Cities, Strong Communities Initiative Areas (\"SC2\")"
+    url: "http://egis.hud.opendata.arcgis.com/datasets/4b482877999e44ff96c377d5c1bc5b79_0"
+
+  - curator: "HUD"
+    description: "Sustainable Communities Regional Planning Grantees (\"SCI\")"
+    url: "http://egis.hud.opendata.arcgis.com/datasets/b0496a9daa8a4faab1efd2762ac6b9c1_0"
+
+  - curator: "DOT/HUD"
+    description: "Location Affordability Index"
+    url: "http://www.locationaffordability.info/lai.aspx?url=download.php"
+
+  - curator: "EPA"
+    description: "Smart Location Database"
+    url: "http://geodata.epa.gov/ArcGIS/rest/services/OA/SmartLocationDatabase/MapServer"
+
+  - curator: "EPA"
+    description: "Environmental Justice Screening and Mapping (EJSCREEN)"
+    url: "http://www.epa.gov/ejscreen/download-ejscreen-data"
+
+  - curator: "HHS"
+    description: "Locations of Federally Qualified Health Centers"
+    url: "http://findahealthcenter.hrsa.gov/#"
+
+  - curator: "HHS"
+    description: "Locations of Head Start Centers"
+    url: "http://eclkc.ohs.acf.hhs.gov/hslc/data/center-data"
+
+  - curator: "USDA"
+    description: "Locations of SNAP (food stamp)-approved retailers"
+    url: "http://www.fns.usda.gov/snap/retailerlocator"
+
+  - curator: "OMB"
+    description: "Promise Zones and other place based initiatives boundaries CSV (also available as JSON)"
+    url: "https://www.whitehouse.gov/omb/place/datasets"
+
+  - curator: "Census"
+    description: "LEHD Origin Destination Employment Statistics (LODES)"
+    url: "http://lehd.ces.census.gov/data/lodes/"
+
+  - curator: "Census"
+    description: "American Community Survey (ACS)"
+    url: "http://www2.census.gov/"
+
+  - curator: "Census"
+    description: "CitySDK - American Community Survey (ACS)"
+    url: "https://uscensusbureau.github.io/citysdk/"
+
+  - curator: "Census"
+    description: "Other Developer Resources"
+    url: "http://www.census.gov/developer"
+
+  - curator: "ED"
+    description: "ED Data Inventory"
+    url: "http://datainventory.ed.gov/InventoryList"
+
+  - curator: "ED"
+    description: "Civil Rights Data Collection"
+    url: "http://ocrdata.ed.gov/"
