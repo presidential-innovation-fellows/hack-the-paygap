@@ -18,6 +18,9 @@ repo_url: https://github.com/uscensusbureau/opportunity
 # Build settings
 markdown: kramdown
 
+gems:
+  - jekyll-sitemap
+
 # Play nice with US Design Standards without needing to modify them (drop-in).
 sass:
   sass_dir: designstandards/assets/_scss
