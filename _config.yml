@@ -21,3 +21,11 @@ markdown: kramdown
 # Play nice with US Design Standards without needing to modify them (drop-in).
 sass:
   sass_dir: designstandards/assets/_scss
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.me
+  - LICENSE.md
+  - about.yml
+  - system-security-plan.yml
