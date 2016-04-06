@@ -29,3 +29,4 @@ exclude:
   - LICENSE.md
   - about.yml
   - system-security-plan.yml
+  - CONTRIBUTING.md
