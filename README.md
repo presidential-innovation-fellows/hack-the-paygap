@@ -1,5 +1,11 @@
 # Opportunity
 
+[![Dependency Status](https://gemnasium.com/badges/github.com/presidential-innovation-fellows/hack-the-paygap.svg)](https://gemnasium.com/github.com/presidential-innovation-fellows/hack-the-paygap)
+[![security](https://hakiri.io/github/presidential-innovation-fellows/hack-the-paygap/master.svg)](https://hakiri.io/github/presidential-innovation-fellows/hack-the-paygap/master)
+[![Code Climate](https://codeclimate.com/github/presidential-innovation-fellows/hack-the-paygap/badges/gpa.svg)](https://codeclimate.com/github/presidential-innovation-fellows/hack-the-paygap)
+[![Test Coverage](https://codeclimate.com/github/presidential-innovation-fellows/hack-the-paygap/badges/coverage.svg)](https://codeclimate.com/github/presidential-innovation-fellows/hack-the-paygap/coverage)
+[![Issue Count](https://codeclimate.com/github/presidential-innovation-fellows/hack-the-paygap/badges/issue_count.svg)](https://codeclimate.com/github/presidential-innovation-fellows/hack-the-paygap)
+
 [![Slack Status](https://opportunity-slack.herokuapp.com/badge.svg)](https://opportunity-slack.herokuapp.com)
 
 Expanding Opportunity with Open Data
