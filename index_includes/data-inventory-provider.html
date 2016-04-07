@@ -1,7 +1,7 @@
 {% assign edit_url = site.repo_url | append: "/edit/master/_data/data-providers/" | append: include.id | append: ".yml" %}
 {% assign provider = site.data.data-providers[include.id] %}
 {% assign group_key = include.group_key %}
-
+<!--
 <div class="usa-accordion-bordered">
   <ul class="usa-unstyled-list">
     <li>
@@ -42,7 +42,7 @@
                   {% if forloop.first %}
                   <td rowspan="{{ group.items | size }}">
 
-                    <!-- ugly hack to quickly link to curator URLs -->
+                    
                     {% if group_key == "curator" %}
                       {% assign curator_name = dataset[group_key] %}
                       <a href="{{ site.data.curators[curator_name].url }}">
