@@ -5,7 +5,15 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 // These are the U.S. Design Standards variables (color definitions, etc.)
-@import "core/variables";
+@import "all";
+@import url(https://fonts.googleapis.com/css?family=Raleway:100);
+
+$brand-red: #f04361;
+
+h1 {
+  font-family: "Raleway";
+  font-weight: 100;
+}
 
 @media screen and (max-width: 600px) { .ood-mobile-hide { display: none; } }
 @media screen and (max-width: 1200px) { .ood-narrow-hide { display: none; } }
@@ -29,13 +37,11 @@ i.fa-github {
 
 main > article,
 main > section,
-main > div.section,
-.ood-banner {
+main > div.section {
   overflow: auto; /* defeat margin collapse */
 }
 
 .usa-disclaimer,
-.ood-banner > *,
 main > section > * ,
 main > div.section > * ,
 body > footer {
@@ -69,6 +75,50 @@ main > .ood-alt2 {
   background-color: $color-gray-lightest;
 }
 
+.gender-banner {
+  background-image: linear-gradient(to bottom, $brand-red, darken($brand-red, 5));
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+
+  h1 {
+    color: $color-white;
+    font-size: 4em;
+  }
+
+  .banner-content {
+    left: 0;
+    max-width: 35em;
+    padding-left: 3rem;
+    position: absolute;
+    z-index: 1000;
+  }
+
+  .logo {
+    width: 350px;
+  }
+
+  .usa-grid {
+    @include clearfix;
+    box-sizing: border-box;
+    min-height: 500px;
+    position: relative;
+  }
+
+  .woman {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    width: 34em;
+    z-index: 0;
+
+    img {
+      margin: 0;
+      vertical-align: bottom;
+    }
+  }
+}
+
 .ood-youtube {
   position: relative;
   width: 100%;
@@ -93,54 +143,6 @@ main > .ood-alt2 {
 .ood-fact-sheet {
   padding: 1em;
   background-color: #FFF;
-}
-
-.ood-banner {
-  background-color: $color-primary-darkest;
-  background-repeat: no-repeat;
-  background-image: url(../img/hero.jpg);
-  background-size: cover;
-  background-position: center bottom;
-  padding: 3em 0;
-  text-align: center;
-
-  h1 {
-    font-weight: 300;
-    font-size: 52px;
-    line-height: 1.3em/68px;
-  }
-
-  .usa-font-lead {
-    font-weight: 300;
-    font-size: 30px;
-    line-height: 1.3em/39px;
-  }
-
-  .ood-description {
-    margin-left: auto;
-    margin-right: auto;
-
-    // slightly wider than the 57rem of ".usa-content p" to achieve nice
-    // looking line distribution
-    max-width: 60rem;
-  }
-
-  a {
-    color: $color-gray-lighter;
-
-    &:hover {
-      color: $color-white;
-    }
-  }
-
-  & p,
-  & h1 {
-    color: $color-white !important;
-  }
-
-  & > :last-child {
-    margin-bottom: $grid-margins;
-  }
 }
 
 .ood-nav {
