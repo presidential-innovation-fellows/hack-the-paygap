@@ -23,7 +23,7 @@ gems:
 
 # Play nice with US Design Standards without needing to modify them (drop-in).
 sass:
-  sass_dir: designstandards/assets/_scss
+  sass_dir: scss
 
 exclude:
   - Gemfile

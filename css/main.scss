@@ -6,14 +6,6 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 // These are the U.S. Design Standards variables (color definitions, etc.)
 @import "all";
-@import url(https://fonts.googleapis.com/css?family=Raleway:100);
-
-$brand-red: #f04361;
-
-h1 {
-  font-family: "Raleway";
-  font-weight: 100;
-}
 
 @media screen and (max-width: 600px) { .ood-mobile-hide { display: none; } }
 @media screen and (max-width: 1200px) { .ood-narrow-hide { display: none; } }
@@ -84,6 +76,7 @@ main > .ood-alt2 {
   h1 {
     color: $color-white;
     font-size: 4em;
+    font-weight: 100;
   }
 
   .banner-content {
@@ -115,6 +108,111 @@ main > .ood-alt2 {
     img {
       margin: 0;
       vertical-align: bottom;
+    }
+  }
+}
+
+.pledge {
+  padding-bottom: 4em;
+
+  h1 {
+    color: $brand-red;
+  }
+
+  i {
+    margin-left: 0.2em;
+  }
+
+  img {
+    border-radius: 0.5em;
+  }
+
+  li {
+
+    &::after {
+      display: none;
+    }
+
+    &::before {
+      display: none;
+    }
+  }
+
+  .hackpaygap-tweets {
+    font-size: 0.85em;
+    margin-right: 0;
+
+    li {
+      background-color: $color-white;
+      border-radius: 0.25em;
+      display: block;
+      margin-bottom: 1em;
+      padding: 0.75em 1em;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .interact {
+      display: none;
+    }
+
+    .timePosted {
+      display: none;
+    }
+
+    .user {
+      @include clearfix;
+      line-height: 1em;
+      margin-bottom: 0.25em;
+
+      img {
+        margin-right: 0.5em;
+        width: 40px;
+      }
+
+      span {
+        display: block;
+        float: left;
+
+        &:nth-child(2),
+        &:nth-child(3),
+        &:nth-child(4) {
+          padding-top: 0.75em;
+        }
+
+        &:nth-child(3) {
+          margin-left: 0.3em;
+        }
+
+        &:last-child {
+          color: lighten($color-primary, 30);
+        }
+      }
+    }
+  }
+
+  .pledge-content {
+    padding-top: 2em;
+  }
+
+  .usa-button {
+    background-color: $brand-red;
+
+    &:hover {
+      background-color: darken($brand-red, 15);
+    }
+
+    &.usa-button-outline {
+      box-shadow: inset 0 0 0 2px $brand-red;
+      color: $brand-red;
+
+      &:hover {
+        background-color: $color-white;
+        box-shadow: inset 0 0 0 2px darken($brand-red, 15);
+        color: darken($brand-red, 15);
+      }
     }
   }
 }
