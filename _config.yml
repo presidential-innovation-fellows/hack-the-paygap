@@ -6,14 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: The Opportunity Project
-email: ross.dakin@pif.gov
+title: Hack The Paygap
+email: benjamin.willman@pif.gov
 description: > # this means to ignore newlines until "baseurl:"
-  An open data effort to improve economic mobility for all Americans.
+  Mobilizing companies, developers and women to take actions to reduce the gender pay gap 
 baseurl: "" # the subpath of your site, e.g. /blog
 email: opportunity-data@listserv.gsa.gov
-url: http://opportunity.census.gov # the base hostname & protocol for your site
-repo_url: https://github.com/uscensusbureau/opportunity
+url: http://paygap.pif.gov # the base hostname & protocol for your site
+repo_url: https://github.com/presidential-innovation-fellows/hack-the-paygap
 
 # Build settings
 markdown: kramdown
