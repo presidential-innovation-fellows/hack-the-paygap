@@ -23,6 +23,31 @@ h3 {
   color: $color-secondary;
 }
 
+.action { padding: 0; text-align: center; }
+.action > div { padding: 1.5em 0; }
+.action h2 { color: #212121; font-family: 'Source Sans Pro'; font-weight: 700; font-size: 34px; line-height: 1.3em/44px; }
+.action a { text-decoration: none; }
+.action a p { color: #5b616b; }
+.action p { max-width: 100%}
+
+.action i.fa { position: relative; display: inline-block; width: 9em; padding: 1.75em 0 0.75em 0; margin-bottom: 1.5em; border-top-left-radius: 5px; border-top-right-radius: 5px; background-color: #cd2026; }
+.action i.fa.ood-first { background-color: #112e51; }
+.action i.fa.ood-first:after { border-top-color: #112e51; }
+.action i.fa.ood-last { background-color: #757575; }
+.action i.fa.ood-last:after { border-top-color: #757575; }
+.action i.fa:before { -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; font-family: FontAwesome; font-style: normal; font-weight: normal; text-transform: none !important; font-size: 4.5em; line-height: 1em; color: #ffffff; }
+.action i.fa:after { content: ''; position: absolute; bottom: -2.00em; left: 0; border-top: solid 2em #cd2026; border-left: solid 4.5em transparent; border-right: solid 4.5em transparent; }
+@media screen and (min-width: 600px) { .ood-nav .ood-middle { position: relative; }
+  .ood-nav .ood-middle:before, .ood-nav .ood-middle:after { content: ''; width: 32px; height: 100%; position: absolute; top: 0; display: block; z-index: -1; }
+  .ood-nav .ood-middle:before { left: -24px; box-shadow: 32px 0 0 0 #fff, 0 -32px 0 0 #fff, 0 32px 0 0 #fff, 32px 32px 0 0 #fff, 32px -32px 0 0 #fff, 0 0 32px 0 rgba(0, 0, 0, 0.15); }
+  .ood-nav .ood-middle:after { right: -24px; box-shadow: -32px 0 0 0 #fff, 0 -32px 0 0 #fff, 0 32px 0 0 #fff, -32px 32px 0 0 #fff, -32px -32px 0 0 #fff, 0 0 32px 0 rgba(0, 0, 0, 0.15); } }
+
+
+
+
+
+
+
 i.fa-github {
   margin-left: 0.15em;
 }
