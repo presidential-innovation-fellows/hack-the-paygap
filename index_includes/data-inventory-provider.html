@@ -1,0 +1,68 @@
+{% assign edit_url = site.repo_url | append: "/edit/master/_data/data-providers/" | append: include.id | append: ".yml" %}
+{% assign provider = site.data.data-providers[include.id] %}
+{% assign group_key = include.group_key %}
+
+<div class="usa-accordion-bordered">
+  <ul class="usa-unstyled-list">
+    <li>
+      <section class="ood-provider">
+        <button class="usa-button-unstyled" aria-expanded="false"
+                aria-controls="collapsible-provider-{{include.id}}">
+          {{ provider.name }}
+        </button>
+
+        <div id="collapsible-provider-{{include.id}}" aria-hidden="true"
+             class="usa-accordion-content">
+          <h4>{{ provider.name }}</h4>
+          Main data site:
+          <a href="{{ provider.url }}">{{ provider.url }}</a>
+
+          {% if provider.notes %}
+            <p>{{ provider.notes }}</p>
+          {% endif %}
+
+          <a class="ood-repo usa-button usa-button-outline"
+             href="{{ edit_url }}">Edit in GitHub<i class="fa fa-github fa-fw"></i></a>
+
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">
+                  {{ group_key | capitalize }}
+                </th>
+                <th scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% assign groups = provider.datasets | group_by: group_key | sort: 'name' %}
+              {% for group in groups %}
+                {% assign datasets = group.items | sort: 'description' %}
+                {% for dataset in datasets %}
+                <tr>
+                  {% if forloop.first %}
+                  <td rowspan="{{ group.items | size }}">
+
+                    <!-- ugly hack to quickly link to curator URLs -->
+                    {% if group_key == "curator" %}
+                      {% assign curator_name = dataset[group_key] %}
+                      <a href="{{ site.data.curators[curator_name].url }}">
+                        {{ dataset[group_key] }}
+                      </a>
+                    {% else %}
+                      {{ dataset[group_key] }}
+                    {% endif %}
+
+                  </td>
+                  {% endif %}
+                  <td><a href="{{ dataset.url }}">{{ dataset.description }}</a></td>
+                </tr>
+                {% endfor %}
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+
+      </section>
+    </li>
+  </ul>
+</div>
