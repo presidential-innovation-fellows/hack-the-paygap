@@ -1,4 +1,4 @@
-# Opportunity
+# Hack the Gender Pay Gap
 
 [![Dependency Status](https://gemnasium.com/badges/github.com/presidential-innovation-fellows/hack-the-paygap.svg)](https://gemnasium.com/github.com/presidential-innovation-fellows/hack-the-paygap)
 [![security](https://hakiri.io/github/presidential-innovation-fellows/hack-the-paygap/master.svg)](https://hakiri.io/github/presidential-innovation-fellows/hack-the-paygap/master)
