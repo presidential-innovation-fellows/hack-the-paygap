@@ -33,3 +33,4 @@ exclude:
   - about.yml
   - system-security-plan.yml
   - CONTRIBUTING.md
+  - node_modules
