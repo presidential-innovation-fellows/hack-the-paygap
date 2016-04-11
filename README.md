@@ -6,7 +6,7 @@
 [![Test Coverage](https://codeclimate.com/github/presidential-innovation-fellows/hack-the-paygap/badges/coverage.svg)](https://codeclimate.com/github/presidential-innovation-fellows/hack-the-paygap/coverage)
 [![Issue Count](https://codeclimate.com/github/presidential-innovation-fellows/hack-the-paygap/badges/issue_count.svg)](https://codeclimate.com/github/presidential-innovation-fellows/hack-the-paygap)
 
-[![Slack Status](https://opportunity-slack.herokuapp.com/badge.svg)](https://opportunity-slack.herokuapp.com)
+[![Slack Status](https://hackthepaygap.herokuapp.com/badge.svg)](https://hackthepaygap.herokuapp.com)
 
 Reducing the gender pay gap using data
 
