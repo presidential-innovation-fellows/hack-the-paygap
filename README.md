@@ -8,9 +8,9 @@
 
 [![Slack Status](https://opportunity-slack.herokuapp.com/badge.svg)](https://opportunity-slack.herokuapp.com)
 
-Expanding Opportunity with Open Data
+Reducing the gender pay gap using data
 
-http://opportunity.census.gov
+http://paygap.pif.gov
 
 
 ### Public domain
