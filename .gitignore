@@ -2,3 +2,4 @@ _site
 .sass-cache
 .DS_store
 .eslintrc.js
+node_modules
