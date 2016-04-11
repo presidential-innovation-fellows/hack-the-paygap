@@ -22,8 +22,8 @@ licenses:
     name: BSD
     url: https://www.ruby-lang.org/en/about/license.txt    
   twitter-fetcher:
-  	name: GPL 3
-  	url: https://github.com/slang800/twitterFetcher/blob/master/LICENSE
+	name: GPL 3
+	url: https://github.com/slang800/twitterFetcher/blob/master/LICENSE
 
 partners: 
 - US Department of Commerce 
