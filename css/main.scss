@@ -28,7 +28,7 @@ h3 {
 .action h2 { color: #212121; font-family: 'Source Sans Pro'; font-weight: 700; font-size: 34px; line-height: 1.3em/44px; }
 .action a { text-decoration: none; }
 .action a p { color: #5b616b; }
-.action p { max-width: 100%}
+.action p { text-align: center; margin-left: auto; margin-right: auto} 
 
 .action i.fa { position: relative; display: inline-block; width: 9em; padding: 1.75em 0 0.75em 0; margin-bottom: 1.5em; border-top-left-radius: 5px; border-top-right-radius: 5px; background-color: #cd2026; }
 .action i.fa.ood-first { background-color: #112e51; }
