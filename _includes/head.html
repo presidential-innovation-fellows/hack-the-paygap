@@ -10,6 +10,10 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  
+  {% if page.url == "/404.html" %}
+    <meta http-equiv="refresh" content="5; url=/">
+  {% endif %}
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{ "scss/web-design-standards/css/google-fonts.css" | prepend: site.baseurl }}">
