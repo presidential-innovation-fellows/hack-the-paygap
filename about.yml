@@ -1,0 +1,42 @@
+---
+name: hack_paygap
+full_name: Hack The Paygap
+type: app
+owner_type: project
+status: active
+stage: alpha
+
+testable: true
+description: >
+  Hack the Paygap is a site to support a hackathon in conjunction with the Department of Commerce and the Census Bureau to use data on gender gap wage disparities and build tools to empower women.
+impact: >
+  Helping make gender gaps and the underlying reasons transparent
+stack:
+- Ruby
+
+licenses:
+  jekyll:
+    name: MIT
+    url: https://github.com/jekyll/jekyll/blob/master/LICENSE
+  ruby:
+    name: BSD
+    url: https://www.ruby-lang.org/en/about/license.txt    
+  twitter-fetcher:
+  	name: GPL 3
+  	url: https://github.com/slang800/twitterFetcher/blob/master/LICENSE
+
+partners: 
+- US Department of Commerce 
+
+tasks: https://github.com/18F/about_yml/issues
+
+contact:
+- url: mailto:benjamin.willman@gsa.gov
+  text: Benjamin Willman
+team:
+- github: bwillman
+  role: lead
+
+- github: smitasatiani
+  role: developer
+
