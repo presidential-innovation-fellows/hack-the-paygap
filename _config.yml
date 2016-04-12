@@ -18,9 +18,6 @@ repo_url: https://github.com/presidential-innovation-fellows/hack-the-paygap
 # Build settings
 markdown: kramdown
 
-gems:
-  - jekyll-sitemap
-
 # Play nice with US Design Standards without needing to modify them (drop-in).
 sass:
   sass_dir: scss
