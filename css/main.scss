@@ -23,6 +23,14 @@ h3 {
   color: $color-secondary;
 }
 
+.action-tile-left h2 { position: relative; left: -60px}
+.action-tile-left p { position: relative; left: -60px}
+.action-tile-middle h2 { position: relative; left: -70px}
+.action-tile-middle p { position: relative; left: -70px}
+.action-tile-right h2 { position: relative; left: -70px}
+.action-tile-right p { position: relative; left: -70px}
+
+
 .action { padding: 0; text-align: center; }
 .action > div { padding: 1.5em 0; }
 .action h2 { color: #212121; font-family: 'Source Sans Pro'; font-weight: 700; font-size: 34px; line-height: 1.3em/44px; }
