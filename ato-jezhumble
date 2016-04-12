@@ -1,0 +1,67 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+paygap.pif.gov Authorization Decision 
+Product Owner: Benjamin Willman | System Owner: Andrew Stroup
+
+Thru: 
+Jez Humble
+Deputy Infrastructure Director, 18F
+Designated Authorizing Official
+
+
+From: 
+Aaron Snow
+Deputy Associate Administrator, 18F
+Authorizing Official
+
+Subject: Authority to operate for https://paygap.pif.gov/
+ 
+A scoped security assessment of this system has been performed by the 18F Infrastructure team in accordance with 18F methodologies to detect vulnerabilities in sites managed by second or third parties.
+ 
+Hack the Paygap is a site to support a hackathon in conjunction with the Department of Commerce and the Census Bureau to use data on gender gap wage disparities and build tools to empower women.
+
+Using NIST FIPS 199 methodology, this system has been given the following security categories if the following are lost:
+
+Confidentiality: n/a
+Integrity: Low
+Availability: Low
+
+The system contains only publicly available information for general consumption and overall meets the requirements in Guidelines for Granting Authority to Operate 18F Hosted Open Data Systems. 
+ 
+Based on the results from automated scans of the infrastructure, operating system, code base, and attack surface area, I have determined that the risk to agency operations, data, or assets resulting from the operation of the system is acceptable.
+
+Accordingly, I am issuing an authorization to operate the system in its existing environment through April 11, 2017 under the following conditions:
+ 
+The security boundary of the underlying infrastructure or the system will not be significantly altered; changes will require re-assessment. 
+The security authorization of the information system will remain in effect through the date above, as long as the system falls under the definition of an OpenData system and any critical security issues identified as a result of continuous monitoring are remediated immediately.
+
+Relevant repository: https://github.com/presidential-innovation-fellows/hack-the-paygap
+
+System Security Plan: https://github.com/presidential-innovation-fellows/apps-gov/blob/master/system-security-plan.yml
+
+Approved:
+
+PGP Signature
+
+Aaron Snow
+Deputy Associate Administrator, 18F
+
+Thru:
+
+PGP Signature	
+
+Jez Humble
+Deputy Infrastructure Director, 18F
+-----BEGIN PGP SIGNATURE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+wsBcBAABCgAGBQJXDHvgAAoJECbC5Z4TCRnSnLMH/1+wXeB0iQplhYKDCkto2VcE
+wyf/tuTQbmgNMZ1NqpFlcF5ZJJLCMjMagIWdTqIRvaCgbqLJ8g53y210uh5PwaYR
+fzvx3B7J+8nLY0++Riswg+aXao4eAVud+Yonm0Oof5Xggj+0KvEJP2ntjE5j9OFo
+BDiSK1QaxU6PYyetctV1iaCnkpRz08KN5OdS/sDpsTYlgXkv4k+tTL1B6AstD/U+
+BgemomWhQ884b54PunqbJPB695EFSksjyD66QAPIK2YGddjGPTLYqTE4zz0guVjI
+E1Q3w5QNEi5wZRsxH1w2QJNbM0CXjohUF2LW1iqcgayzS0eajak63YeB14utqPI=
+=ze8h
+-----END PGP SIGNATURE-----
