@@ -9,7 +9,7 @@
 title: Hack The Paygap
 email: benjamin.willman@pif.gov
 description: > # this means to ignore newlines until "baseurl:"
-  Mobilizing companies, developers and women to take actions to reduce the gender pay gap.
+  Mobilizing developers, designers, and data scientists to hackthepaygap
 baseurl: "" # the subpath of your site, e.g. /blog
 email: opportunity-data@listserv.gsa.gov
 url: https://paygap.pif.gov # the base hostname & protocol for your site
