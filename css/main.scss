@@ -23,7 +23,7 @@ h3 {
   color: $color-secondary;
 }
 
-.action-tile h2 { margin-top: .5em }
+.action-tile h2 { margin-top: .5em;  }
 .action-tile-left h2 { position: relative; left: -50px}
 .action-tile-middle h2 { position: relative; left: -40px}
 .action-tile-right h2 { position: relative; left: -30px}
@@ -56,6 +56,9 @@ h3 {
   max-width: 100rem;
 }
 
+.build .build-col {
+  margin:auto; max-width: 53rem
+}
 
 
 i.fa-github {
