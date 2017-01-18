@@ -12,6 +12,28 @@ Reducing the gender pay gap using data
 
 http://paygap.pif.gov
 
+## Deploying
+
+This app is deployed using [Federalist](https://federalist.18f.gov/).
+
+This also depends on an instance of [slackin](https://github.com/rauchg/slackin). This is currently deployed into [cloud.gov](https://cloud.gov) in the `gsa-pif-paygap` organization. To redeploy, follow these steps:
+
+* Check out https://github.com/rauchg/slackin
+* Run `npm install` to install dependencies
+* Create the following `manifest.yml` (get the Slack API token from an administrator of the #hackthepaygap Slack organization):
+```
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/buildpack-nodejs.git
+  disk_quota: 1024M
+  instances: 2
+  memory: 256M
+  name: slack-paygap
+  env:
+    SLACK_SUBDOMAIN: hackthepaygap
+    SLACK_API_TOKEN: &lt;API_TOKEN&gt; 
+```
+* Run `cf push -f manifest.yml`
 
 ### Public domain
 
