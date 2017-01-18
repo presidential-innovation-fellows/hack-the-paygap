@@ -31,7 +31,7 @@ applications:
   name: slack-paygap
   env:
     SLACK_SUBDOMAIN: hackthepaygap
-    SLACK_API_TOKEN: &lt;API_TOKEN&gt; 
+    SLACK_API_TOKEN: <API_TOKEN> 
 ```
 * Run `cf push -f manifest.yml`
 
