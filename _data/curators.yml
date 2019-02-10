@@ -16,3 +16,5 @@ USDA:
   url: "http://www.usda.gov"
 EPA:
   url: "http://www.epa.gov"
+BLS:
+  url: "http://www.bls.gov/"
